@@ -37,7 +37,7 @@ const redirectUrl= async(req,res)=>
     await url.save();
 
     res.redirect(url.originalUrl);
-
+    
 }
 
 
