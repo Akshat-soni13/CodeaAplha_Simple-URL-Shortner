@@ -9,7 +9,7 @@ function UrlShortener() {
   const shortenUrl = async () => {
 
     const response = await fetch(
-      "http://localhost:3000/api/url/Shoorten",
+      "https://codeaaplha-simple-url-shortner-1.onrender.com/api/url/Shoorten",
       {
         method: "POST",
         headers: {
