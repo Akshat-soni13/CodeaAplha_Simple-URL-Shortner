@@ -21,7 +21,7 @@ function UrlShortener() {
       }
     );
 
-    const data = await responsejson();
+    const data = await response.json();
 
     setShortUrl(data.url);
   };
